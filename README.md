@@ -2,7 +2,7 @@
 
 Simple django app that allows for uploading of image to s3 (via vanilla django admin app) and checks for duplicates using pHash in a celery task. Postgres RDS used for backing database.
 
-More details to come (on setup/deployment)
+More details to come (on setup/deployment/demo)
 
 ## Requirements
 ### Expected software/packages in environment
@@ -29,4 +29,31 @@ More details to come (on setup/deployment)
 * BOTO_BUCKET_LOCATION
 * BROKER_TRANSPORT_OPTIONS_REGION
 
+## Demo / Screenshots
+### Django Admin Panels
 
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin1.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin2.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin3.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/aws-s3-storage.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin4.png)
+
+### Local console
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/console1.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/console2.png)
+
+### AWS console
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/aws-s3.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/aws-rds.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/aws-sqs.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/aws-ec2.png)
