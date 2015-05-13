@@ -38,6 +38,10 @@ More details to come (on setup/deployment/demo)
 
 ![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin3.png)
 
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin4.png)
+
+![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin5.png)
+
 ![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/aws-s3-storage.png)
 
 ![Screenshot](https://github.com/kevd1337/django-aws-simple-duplicate-image-checker/blob/master/demo-screenshots/admin4.png)

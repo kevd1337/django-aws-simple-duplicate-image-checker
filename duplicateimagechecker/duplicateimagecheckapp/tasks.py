@@ -24,8 +24,8 @@ def calculate_hash(primary_key):
         temp_image_path = '/tmp/{}.{}'.format(uuid4().hex , instance.image.url.split('.')[-1])
         urllib.urlretrieve(instance.image.url, temp_image_path)
 
-        # set image hash (hex of the perceptual hash long integer, with leading 0x stripped off)
-        image_hash = hex(pHash.imagehash(temp_image_path)).split('x')[-1]
+        # set image hash (hex of the perceptual hash long integer, with leading 0x and trailing L stripped off)
+        image_hash = hex(pHash.imagehash(temp_image_path)).split('x')[-1].split('L')[0]
         instance.image_hash = image_hash
 
         # check if other object has this hash

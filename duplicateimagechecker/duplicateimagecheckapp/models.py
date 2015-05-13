@@ -35,4 +35,16 @@ class ImageDupe(models.Model):
                 # Image changed, so remove hash for recalculation later
                 self.is_duplicate = False
                 self.image_hash = None
-        super(ImageDupe, self).save(*args, **kwargs) 
+        super(ImageDupe, self).save(*args, **kwargs)
+
+    def image_img(self):
+        """
+        Helper to display image
+
+        """
+        if self.image:
+            return u'<img src="%s" />' % self.image.url
+        else:
+            return 'No Image'
+        image_img.short_description = 'image'
+        image_img.allow_tags = True
